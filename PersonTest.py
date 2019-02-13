@@ -62,3 +62,6 @@ if __name__ == '__main__':
     # begin the unittest.main()
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'))
     
+
+
+'''Soufiane MHAIDRA'''
