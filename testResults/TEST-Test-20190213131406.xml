@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Test-20190213131406" tests="2" time="0.003">
+	<testcase classname="Test" name="test_0_set_name" time="0.000"/>
+	<testcase classname="Test" name="test_1_get_name" time="0.003"/>
+	<system-out>
+<![CDATA[Start set_name test
+
+user_id length =  4
+[0, 1, 2, 3]
+user_name length =  4
+['name0', 'name1', 'name2', 'name3']
+
+Finish set_name test
+
+
+Start get_name test
+
+user_id length =  4
+user_name length =  4
+Testing for get_name no user test
+Testing for get_name no user test
+
+Finish get_name test
+
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

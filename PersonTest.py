@@ -1,4 +1,5 @@
 import unittest
+import xmlrunner
 
 # This is the class we want to test. So, we need to import it
 import Person as PersonClass
@@ -58,5 +59,5 @@ class Test(unittest.TestCase):
 
 if __name__ == '__main__':
     # begin the unittest.main()
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='./testResults'))
     
