@@ -45,7 +45,7 @@ class Test(unittest.TestCase):
         length = len(self.user_id)  # total number of stored user information
         # print("user_id length = ", length)
         # print("user_name length = ", len(self.user_name))
-        self.assertEqual(2,3)
+        # self.assertEqual(2,3)
         for i in range(6):
             # if i not exceed total length then verify the returned name
             if i < length:
